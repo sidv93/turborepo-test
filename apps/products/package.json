@@ -1,0 +1,22 @@
+{
+  "name": "products",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 3001 --clearScreen false",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "TIMING=1 eslint src/**/*.jsx --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "config": "*",
+    "vite": "^2.8.0"
+  }
+}
