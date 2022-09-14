@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { Button } from 'ui';
+import { Button } from 'ui/components';
 
 function App() {
   const [count, setCount] = useState(0)

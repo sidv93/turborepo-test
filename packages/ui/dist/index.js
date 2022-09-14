@@ -26,13 +26,13 @@ var __toCommonJS = /* @__PURE__ */ ((cache) => {
   };
 })(typeof WeakMap !== "undefined" ? /* @__PURE__ */ new WeakMap() : 0);
 
-// index.tsx
+// index.jsx
 var ui_exports = {};
 __export(ui_exports, {
   Button: () => Button
 });
 
-// Button.tsx
+// components/button/Button.jsx
 var React = __toESM(require("react"));
 var Button = () => /* @__PURE__ */ React.createElement("button", null, "Boop");
 module.exports = __toCommonJS(ui_exports);
