@@ -567,6 +567,26 @@
   "resolved" "https://registry.npmjs.org/@testing-library/user-event/-/user-event-14.4.3.tgz"
   "version" "14.4.3"
 
+"@turborepo-test/admin@file:C:\\Development\\molecular-testing-labs\\turborepo-example\\apps\\admin":
+  "resolved" "file:apps/admin"
+  "version" "0.0.0"
+  dependencies:
+    "react" "^17.0.2"
+    "react-dom" "^17.0.2"
+    "ui" "*"
+
+"@turborepo-test/products@file:C:\\Development\\molecular-testing-labs\\turborepo-example\\apps\\products":
+  "resolved" "file:apps/products"
+  "version" "0.0.0"
+  dependencies:
+    "react" "^17.0.2"
+    "react-dom" "^17.0.2"
+    "ui" "*"
+
+"@turborepo-test/ui@file:C:\\Development\\molecular-testing-labs\\turborepo-example\\packages\\ui":
+  "resolved" "file:packages/ui"
+  "version" "0.0.0"
+
 "@types/aria-query@^4.2.0":
   "integrity" "sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig=="
   "resolved" "https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.2.tgz"
@@ -829,14 +849,6 @@
   "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A=="
   "resolved" "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
   "version" "7.4.1"
-
-"admin@file:C:\\Users\\AmishMenon\\Source\\Repos\\amishmenon1\\turborepo-example\\apps\\admin":
-  "resolved" "file:apps/admin"
-  "version" "0.0.0"
-  dependencies:
-    "react" "^17.0.2"
-    "react-dom" "^17.0.2"
-    "ui" "*"
 
 "ajv@^6.10.0", "ajv@^6.12.4":
   "integrity" "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g=="
@@ -1323,7 +1335,7 @@
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   "version" "0.0.1"
 
-"config@*", "config@file:C:\\Users\\AmishMenon\\Source\\Repos\\amishmenon1\\turborepo-example\\packages\\config":
+"config@*", "config@file:C:\\Development\\molecular-testing-labs\\turborepo-example\\packages\\config":
   "resolved" "file:packages/config"
   "version" "0.0.0"
   dependencies:
@@ -3247,14 +3259,6 @@
     "ansi-styles" "^5.0.0"
     "react-is" "^17.0.1"
 
-"products@file:C:\\Users\\AmishMenon\\Source\\Repos\\amishmenon1\\turborepo-example\\apps\\products":
-  "resolved" "file:apps/products"
-  "version" "0.0.0"
-  dependencies:
-    "react" "^17.0.2"
-    "react-dom" "^17.0.2"
-    "ui" "*"
-
 "progress@^2.0.0":
   "integrity" "sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA=="
   "resolved" "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz"
@@ -3966,7 +3970,7 @@
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.6.2.tgz"
   "version" "4.6.2"
 
-"ui@*", "ui@file:C:\\Users\\AmishMenon\\Source\\Repos\\amishmenon1\\turborepo-example\\packages\\ui":
+"ui@*":
   "resolved" "file:packages/ui"
   "version" "0.0.0"
 

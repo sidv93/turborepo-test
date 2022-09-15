@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/jsconfig",
+  "display": "React Library",
+  "extends": "./jsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2015"],
+    "module": "ESNext",
+    "target": "es6"
+  }
+}

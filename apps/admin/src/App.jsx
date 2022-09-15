@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import { Button } from 'ui/components';
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "@turborepo-test/ui/components";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -30,7 +30,7 @@ function App() {
           </a>
           <Button />
           <Button />
-          {' | '}
+          {" | "}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
@@ -42,7 +42,7 @@ function App() {
         </p>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
