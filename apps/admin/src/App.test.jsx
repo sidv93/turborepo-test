@@ -1,11 +1,12 @@
 import React from "react";
-
+import { render, screen, waitFor } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import App from "./App";
-import { render, screen } from "@testing-library/react";
 
 describe("tests", () => {
   it("should", () => {
     render(<App />);
-    expect(screen.getByText("Boop")).toBeInTheDocument();
+    const buttonElement = screen.findByText("Boop");
+    waitFor(() => expect(buttonElement).toBeInTheDocument());
   });
 });
